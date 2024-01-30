@@ -34,25 +34,22 @@
 }
 
 .movies-container div svg{
-    color: #f7d354;
+    color: #ffc800;
 }
 
-.movies-container form button{
-    background-color: aliceblue;
-    border: 2px solid rgba(18, 94, 11, 0.504);
+.movies-container div a{
+    background-color: #ffc800;
+    border: 2px solid rgba(0, 0, 0, 0.504);
     border-radius: 4px;
     color: black;
-    padding: .3rem;
-    font-size: 1.3rem;
-    display: flex;
+    padding:  1rem .5rem;
     align-items: center;
-    cursor: pointer;
     transition: .4s;
     text-align: center;
     font-weight: bold;
 }
 
-.movies-container form button:hover{
+.movies-container div a:hover{
     background-color: transparent;
     color: #f7d354;
 }
